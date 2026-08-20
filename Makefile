@@ -1,7 +1,9 @@
 CC = cc
+
 CFLAGS = -Wall -Wextra -Werror -std=c11
 
-TARGET = seuemail
+TARGET = processflow
+
 SOURCES = src/main.c src/processflow.c
 
 .PHONY: all clean
